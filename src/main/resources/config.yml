@@ -1,0 +1,12 @@
+config:
+  regen-time: 1
+  oak:
+    line1: 'eee'
+    line2: 'eoe'
+    line3: 'eee'
+
+  ingredients:
+    e: 264
+    o: 17
+
+

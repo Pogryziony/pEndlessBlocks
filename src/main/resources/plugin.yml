@@ -1,0 +1,20 @@
+name: PEndlessBlocks
+version: ${project.version}
+main: com.github.pogryziony.pendlessblocks.PEndlessBlocks
+authors: [Pogryziony]
+description: Adds a possibility to craft infinite blocks
+website: github.com/Pogryziony
+commands:
+  pendlessreload:
+    description: reloads plugin
+    aliases: [pebrel,pebreload]
+    permission: pEndlessBlocks.reload
+    usage: /pendlessreload
+permissions:
+  pEndlessBlocks.*:
+    description: Gives access to all commands from plugin
+    children:
+      pEndlessBlocks.reload: true
+  pEndlessBlocks.reload:
+    description: Allows to use reload command
+    default: op

@@ -1,0 +1,11 @@
+com\github\pogryziony\pendlessblocks\managers\ConfigManager.class
+com\github\pogryziony\pendlessblocks\commands\ReloadCommand.class
+com\github\pogryziony\pendlessblocks\listeners\OakOnFireListener.class
+com\github\pogryziony\pendlessblocks\listeners\OakOnFireListener$1.class
+com\github\pogryziony\pendlessblocks\managers\UtilManager.class
+com\github\pogryziony\pendlessblocks\listeners\OakPlaceListener.class
+com\github\pogryziony\pendlessblocks\managers\OakManager.class
+com\github\pogryziony\pendlessblocks\managers\CraftingManager.class
+com\github\pogryziony\pendlessblocks\PEndlessBlocks.class
+com\github\pogryziony\pendlessblocks\listeners\OakBreakListener.class
+com\github\pogryziony\pendlessblocks\listeners\OakExplodeListener.class
