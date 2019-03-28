@@ -37,6 +37,22 @@ public class CraftingManager
         }
         Bukkit.addRecipe(oakGenerator);
     }
-
+    public void StoneCrafting()
+    {
+        ItemStack stone = new ItemStack(Material.ENDER_STONE, 1);
+        ItemMeta meta = stone.getItemMeta();
+        meta.setDisplayName(ChatColor.GREEN + ChatColor.BOLD.toString() + "Generator kamienia");
+        meta.setLore(Arrays.asList(ChatColor.LIGHT_PURPLE.toString() + "Postaw aby stworzyc", ChatColor.LIGHT_PURPLE.toString() + "generator kamienia"));
+        stone.setItemMeta(meta);
+        stone.addUnsafeEnchantment(Enchantment.SILK_TOUCH, 10);
+        ShapedRecipe stoneGenerator = new ShapedRecipe(stone).shape(
+                this.plugin.getConfigManager().stone1,
+                this.plugin.getConfigManager().stone2,
+                this.plugin.getConfigManager().stone3);
+        for (String ingredient : this.plugin.getConfigManager().ingredients.keySet()) {
+            stoneGenerator.setIngredient(ingredient.charAt(0), Material.getMaterial(this.plugin.getConfigManager().ingredients.get(ingredient)));
+        }
+        Bukkit.addRecipe(stoneGenerator);
+    }
 
 }
