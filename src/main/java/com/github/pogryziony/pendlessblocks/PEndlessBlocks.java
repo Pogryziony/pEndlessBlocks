@@ -40,6 +40,7 @@ public final class PEndlessBlocks extends JavaPlugin{
         new CraftingManager(this).OakCrafting();
         Bukkit.getPluginManager().registerEvents(new StoneBreakListener(this),this);
         Bukkit.getPluginManager().registerEvents(new StonePlaceListener(this),this);
+        Bukkit.getPluginManager().registerEvents(new StoneExplodeListener(this),this);
         new CraftingManager(this).StoneCrafting();
     }
 

@@ -4,9 +4,14 @@ config:
     line1: 'eee'
     line2: 'eoe'
     line3: 'eee'
-
+  stone:
+    line1: 'sss'
+    line2: 'sds'
+    line3: 'sps'
   ingredients:
     e: 264
     o: 17
-
+    d:
+    p:
+    s:
 

@@ -47,9 +47,9 @@ public class ConfigManager
         this.oak2 = this.plugin.getConfig().getString("config.oak.line2", "eoe");
         this.oak3 = this.plugin.getConfig().getString("config.oak.line3", "eee");
 
-        this.stone1 = this.plugin.getConfig().getString("config.stone.line1", "eee");
-        this.stone2 = this.plugin.getConfig().getString("config.stone.line2", "eoe");
-        this.stone3 = this.plugin.getConfig().getString("config.stone.line3", "eee");
+        this.stone1 = this.plugin.getConfig().getString("config.stone.line1", "sss");
+        this.stone2 = this.plugin.getConfig().getString("config.stone.line2", "sds");
+        this.stone3 = this.plugin.getConfig().getString("config.stone.line3", "sps");
 
         for (String ingredient : this.plugin.getConfig().getConfigurationSection("config.ingredients").getKeys(false)) {
             this.ingredients.put(ingredient, this.plugin.getConfig().getInt("config.ingredients." + ingredient));
@@ -59,7 +59,6 @@ public class ConfigManager
     public void reloadConfig()
     {
         this.plugin.reloadConfig();
-        saveConfig();
         loadConfig();
     }
 }

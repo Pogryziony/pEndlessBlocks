@@ -8,24 +8,24 @@ import org.bukkit.event.entity.EntityExplodeEvent;
 
 import java.util.List;
 
-public class OakExplodeListener
+public class StoneExplodeListener
         implements Listener
 {
     private PEndlessBlocks plugin;
 
-    public OakExplodeListener(PEndlessBlocks plugin)
+    public StoneExplodeListener(PEndlessBlocks plugin)
     {
         this.plugin = plugin;
     }
 
     @EventHandler
-    public void onOakExplode(EntityExplodeEvent event)
+    public void onStoneExplode(EntityExplodeEvent event)
     {
         List<Block> blocks = event.blockList();
         if (!blocks.isEmpty()) {
             for (Block b : blocks) {
-                if (this.plugin.getOakManager().isOak(b.getLocation())) {
-                    this.plugin.getOakManager().removeOak(b.getLocation());
+                if (this.plugin.getStoneManager().isStone(b.getLocation())) {
+                    this.plugin.getStoneManager().removeStone(b.getLocation());
                 }
             }
         }
