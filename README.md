@@ -5,18 +5,18 @@
 
 <h4>pEndlessBlocks</h4>
 Here is my little plugin for minecraft which allows creating infinite blocks like:
-<l>
-- Stone
-- Oak Log
-</l>
+<ul>
+<li>Stone</li>
+<li>Oak Log</li>
+</ul>
 <h4>Future features</h4>
-<l>
-
-- Sand
-- Gravel
-- Obsidian
-- Netherrack
-- Dirt
+<ul>
+<li>Dirt</li>
+<li>Sand</li>
+<li>Gravel</li>
+<li>Netherrack</li>
+<li>Obsidian</li>
+</ul>
 <br>
 
 <h4>Configuration</h4>
