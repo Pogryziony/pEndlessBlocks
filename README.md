@@ -7,7 +7,7 @@
 Here is my little plugin for minecraft which allows creating infinite blocks like:
 <l>
 - Stone
-- Oak log
+- Oak Log
 </l>
 <h4>Future features</h4>
 <l>
