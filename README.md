@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="" target="_blank">
+    <a href="https://github.com/Pogryziony" target="_blank">
         <img height=150 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7QcDRQ9rT4fqaRw5__IqSrKRR1JwCSDyKyaJCq6rEZIWLQwQe">
     </a>
 
